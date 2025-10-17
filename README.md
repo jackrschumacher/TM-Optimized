@@ -2,7 +2,7 @@
 
 A repository of optimized 2 month code
 
- 
+ **This code is currently untested on hardware but parts of the code have been used on hardware in the past**
 
 ## Pin Assignments
 
