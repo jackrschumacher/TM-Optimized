@@ -10,3 +10,10 @@
 #include <utility/imumaths.h>
 #include "PWMDcMotor.hpp" //Determine if this is being used
 #include <Servo.h>
+
+void setup(){
+
+}
+void loop(){
+  
+}
