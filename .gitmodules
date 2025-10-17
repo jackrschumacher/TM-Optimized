@@ -1,0 +1,3 @@
+[submodule "Pico Motor Test"]
+	path = Pico Motor Test
+	url = git@github.com:jackrschumacher/PicoMotorTest.git
