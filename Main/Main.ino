@@ -88,7 +88,7 @@ void setup() {
     Serial.println("SD Card Initialization failed. Check card formatting and wiring.");
   } 
   else {
-    Serial.println("SD Card initilization succeded");
+    Serial.println("SD Card initialization succeeded");
   }
   if (!bmp.begin_I2C()) {
     Serial.println("No BMP388 sensor is detected. Please check wiring, pin assignment in both hardware and software,etc. ");

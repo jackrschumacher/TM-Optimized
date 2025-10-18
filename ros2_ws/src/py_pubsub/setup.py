@@ -1,6 +1,9 @@
 from setuptools import find_packages, setup
 
 package_name = 'py_pubsub'
+maintainer ='Jack Schumacher',
+maintainer_email='jackrschumacher@gmail.com',
+description='Example ROS2 publisher subscriber for 2 Month using rclpy'
 
 setup(
     name=package_name,
@@ -23,7 +26,10 @@ setup(
         ],
     },
     entry_points={
+        # Make sure that these are named correctly otherwise fails
         'console_scripts': [
+                'talker = py_pubsub.publisher_member_function:main',
+                'listener = py_pubsub.subscriber_member_function:main'
         ],
-    },
+},
 )

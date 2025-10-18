@@ -14,19 +14,20 @@
 
 import rclpy
 from rclpy.node import Node
-
+# Sets up the inbuilt string message type that the node uses in order to format the messages
 from std_msgs.msg import String
 
-
+# Subclass of Node
 class MinimalPublisher(Node):
-
+    
     def __init__(self):
-        super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(String, 'topic', 10)
+        super().__init__('minimal_publisher') #Passes the name of the function
+        self.publisher_ = self.create_publisher(String, 'topic', 10) # This node publishes strings, top ic name of topic, queue size of 10 (this limits the amount of messages in the queue to ensure performance)
+        # Create a timer that callbacks and executes 0.5 seconds
         timer_period = 0.5  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
+        self.timer = self.create_timer(timer_period, self.timer_callback) 
         self.i = 0
-
+    # Creates a message and appends the counter value to it
     def timer_callback(self):
         msg = String()
         msg.data = 'Hello World: %d' % self.i
@@ -35,6 +36,8 @@ class MinimalPublisher(Node):
         self.i += 1
 
 
+# Main function definition
+# rclpy initialized, 'spin' node so callbacks are called
 def main(args=None):
     rclpy.init(args=args)
 
