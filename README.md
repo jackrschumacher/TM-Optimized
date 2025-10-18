@@ -4,10 +4,6 @@
 >
 > **This code is currently untested on hardware but parts of the code have been used on hardware in the past**
 
-## Table of Contents
-
-[TOC]
-
 ## Resources
 
 Here are some important resources for Rover 2 month
