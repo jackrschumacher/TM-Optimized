@@ -1,8 +1,24 @@
 # Two Month Optimized
 
-A repository of optimized 2 month code
+> [!WARNING]
+>
+> **This code is currently untested on hardware but parts of the code have been used on hardware in the past**
 
- **This code is currently untested on hardware but parts of the code have been used on hardware in the past**
+## Table of Contents
+
+[TOC]
+
+## Resources
+
+Here are some important resources for Rover 2 month
+
+### Pico
+
+#### [Writing to the SD Card](https://medium.com/@cemmreis/logging-data-with-an-sd-card-module-and-raspberry-pi-pico-in-arduino-ide-5b280382527e)
+
+### ROS2
+
+#### [ROS2 Publisher and Subscriber Tutorial](https://github.com/ros2/ros2_documentation/blob/humble/source/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.rst)
 
 ## Pin Assignments
 
@@ -21,8 +37,6 @@ Pin assignments can be easily updated to suit different hardware configurations.
 |         |          |
 
 ## ROS 2
-
-[ROS2 Publisher and Subscriber tutorial](https://github.com/ros2/ros2_documentation/blob/humble/source/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.rst)
 
 Make sure to source your ROS2 setup script
 
