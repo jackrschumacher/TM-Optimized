@@ -19,19 +19,18 @@ from std_msgs.msg import String
 
 
 class MinimalSubscriber(Node):
-
     def __init__(self):
-        super().__init__('minimal_subscriber')
+        super().__init__("minimal_subscriber")
         # Creates a subscriber with the same arguments as the publisher
         self.subscription = self.create_subscription(
-            String,
-            'topic',
-            self.listener_callback,
-            10)
+            String, "topic", self.listener_callback, 10
+        )
         self.subscription  # prevent unused variable warning
+
     # Prints info message to console with data received
     def listener_callback(self, msg):
         self.get_logger().info('I heard: "%s"' % msg.data)
+
 
 # Essentially the same as the publisher
 def main(args=None):
@@ -48,5 +47,5 @@ def main(args=None):
     rclpy.shutdown()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
