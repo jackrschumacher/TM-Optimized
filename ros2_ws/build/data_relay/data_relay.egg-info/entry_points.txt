@@ -1,0 +1,4 @@
+[console_scripts]
+relay_pub = data_relay.relay_data_pub:main
+relay_sub = data_relay.relay_data_sub:main
+

@@ -1,0 +1,17 @@
+running egg_info
+creating ../../build/data_relay/data_relay.egg-info
+writing ../../build/data_relay/data_relay.egg-info/PKG-INFO
+writing dependency_links to ../../build/data_relay/data_relay.egg-info/dependency_links.txt
+writing entry points to ../../build/data_relay/data_relay.egg-info/entry_points.txt
+writing requirements to ../../build/data_relay/data_relay.egg-info/requires.txt
+writing top-level names to ../../build/data_relay/data_relay.egg-info/top_level.txt
+writing manifest file '../../build/data_relay/data_relay.egg-info/SOURCES.txt'
+reading manifest file '../../build/data_relay/data_relay.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/data_relay/data_relay.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/jack/Documents/TM-Optimized/ros2_ws/install/data_relay/share/ament_index
+creating /home/jack/Documents/TM-Optimized/ros2_ws/install/data_relay/share/ament_index/resource_index
+creating /home/jack/Documents/TM-Optimized/ros2_ws/install/data_relay/share/ament_index/resource_index/packages

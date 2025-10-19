@@ -28,9 +28,10 @@ setup(
     entry_points={
         # Make sure that these are named correctly otherwise fails
         'console_scripts': [
-                'talker = py_pubsub.publisher_member_function:main',
-                'listener = py_pubsub.subscriber_member_function:main'
+                'relay_pub =  data_relay.relay_data_pub:main',
+                'relay_sub = data_relay.relay_data_sub:main'
 
         ],
 },
 )
+

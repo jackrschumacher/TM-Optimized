@@ -11,7 +11,7 @@ from std_msgs.msg import String
 
 class relay_Telemetry(Node):
     def __init__(self):
-        super.__init__("telemetry_Publisher")
+        super().__init__("telemetry_Publisher")
 
         # Set serial up with baud rate of 9600 on /dev/ttyACM0
         self.ser = serial.Serial("/dev/ttyACM0", 9600)

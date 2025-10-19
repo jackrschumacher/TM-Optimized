@@ -1,0 +1,20 @@
+[1.030s] Invoking command in '/home/jack/Documents/TM-Optimized/ros2_ws/src/py_pubsub': PYTHONPATH=/home/jack/Documents/TM-Optimized/ros2_ws/build/data_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/Documents/TM-Optimized/ros2_ws/install/data_relay/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_relay build --build-base /home/jack/Documents/TM-Optimized/ros2_ws/build/data_relay/build install --record /home/jack/Documents/TM-Optimized/ros2_ws/build/data_relay/install.log --single-version-externally-managed install_data
+[1.351s] running egg_info
+[1.354s] creating ../../build/data_relay/data_relay.egg-info
+[1.354s] writing ../../build/data_relay/data_relay.egg-info/PKG-INFO
+[1.354s] writing dependency_links to ../../build/data_relay/data_relay.egg-info/dependency_links.txt
+[1.355s] writing entry points to ../../build/data_relay/data_relay.egg-info/entry_points.txt
+[1.355s] writing requirements to ../../build/data_relay/data_relay.egg-info/requires.txt
+[1.355s] writing top-level names to ../../build/data_relay/data_relay.egg-info/top_level.txt
+[1.356s] writing manifest file '../../build/data_relay/data_relay.egg-info/SOURCES.txt'
+[1.356s] reading manifest file '../../build/data_relay/data_relay.egg-info/SOURCES.txt'
+[1.357s] adding license file 'LICENSE'
+[1.358s] writing manifest file '../../build/data_relay/data_relay.egg-info/SOURCES.txt'
+[1.358s] running build
+[1.358s] running install
+[1.358s] running install_data
+[1.359s] creating /home/jack/Documents/TM-Optimized/ros2_ws/install/data_relay/share/ament_index
+[1.359s] creating /home/jack/Documents/TM-Optimized/ros2_ws/install/data_relay/share/ament_index/resource_index
+[1.359s] creating /home/jack/Documents/TM-Optimized/ros2_ws/install/data_relay/share/ament_index/resource_index/packages
+[1.359s] error: can't copy 'resource/data_relay': doesn't exist or not a regular file
+[1.392s] Invoked command in '/home/jack/Documents/TM-Optimized/ros2_ws/src/py_pubsub' returned '1': PYTHONPATH=/home/jack/Documents/TM-Optimized/ros2_ws/build/data_relay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jack/Documents/TM-Optimized/ros2_ws/install/data_relay/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_relay build --build-base /home/jack/Documents/TM-Optimized/ros2_ws/build/data_relay/build install --record /home/jack/Documents/TM-Optimized/ros2_ws/build/data_relay/install.log --single-version-externally-managed install_data
