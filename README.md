@@ -106,3 +106,8 @@ The output may look like this:
 [INFO] [minimal_subscriber]: I heard: "Hello World: 14"
 ```
 
+### My Packages
+
+#### data_relay
+
+This package takes takes the data received from the Pico over serial and publishes it. This package requires the device to be connected via serial or it will error.
