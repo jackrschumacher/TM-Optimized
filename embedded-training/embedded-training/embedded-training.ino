@@ -5,7 +5,6 @@
 
 #define SEALEVELPRESS (1013.25);
 // Initilizated variables
-char testString ="";
 
 int oneNum = 1;
 
@@ -32,6 +31,19 @@ void readSerial(){
     command.trim(); //Remove whitespace
     if(command.length() == 0){
       Serial.println("No motor command received");
+      return;
+    }
+    else{
+      const int commandSize = command.length() +1;
+      char commands[commandSize];
+      command.toCharArray(commands,commandSize);
+
+      int axis1move = commands[0];
+      Serial.println("The value that axis1 moved was:");
+      Serial.print(axis1move);
+
+
+      servo1.write(axis1move);
     }
   }
   else{
